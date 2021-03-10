@@ -7,7 +7,14 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
+  console.log(about);
   const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  // eslint-disable-next-line no-console
+  console.log(img);
+  // eslint-disable-next-line no-console
+  console.log('paragraphOne', paragraphOne);
+  console.log('paragraphTwo', paragraphTwo);
+  console.log('paragraphThree', paragraphThree);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
