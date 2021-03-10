@@ -29,29 +29,22 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'hello!world!',
+    info:
+      'つれづれなるままに、ひくらし、すずりにむかいて、こころにうつりゆくよしなしごとを、そこはかとなくかきつくれば、あやしうこそものぐるほしけれ',
+    info2:
+      '吾輩わがはいは猫である。名前はまだ無い。どこで生れたかとんと見当けんとうがつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪どうあくな種族であったそうだ。この書生というのは時々我々を捕つかまえて煮にて食うという話である。',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'こんにちは！世界！',
+    info: 'There is nothing either good or bad, but thinking makes it so.',
+    info2: '物事によいも悪いもない。考え方によって良くも悪くもなる。',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/hironomiu', // if no repo, the button will not show up
   },
 ];
 
@@ -68,22 +61,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/hironomiu',
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
+      name: 'slideshare',
+      url: 'https://www.slideshare.net/hironorimiura',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/hironomiu',
     },
   ],
 };
